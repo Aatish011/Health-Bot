@@ -1,0 +1,19 @@
+{
+  "diseases": [
+    {
+      "name": "malaria",
+      "symptoms": "Fever, chills, sweats, headaches, nausea and vomiting, and body aches.",
+      "prevention": "Use mosquito nets, apply insect repellent, and take anti-malarial medication if prescribed."
+    },
+    {
+      "name": "dengue",
+      "symptoms": "High fever, severe headache, pain behind the eyes, joint and muscle pain, and a skin rash.",
+      "prevention": "Eliminate mosquito breeding sites by removing stagnant water, and use mosquito repellent."
+    },
+    {
+      "name": "covid-19",
+      "symptoms": "Fever, cough, tiredness, and loss of taste or smell. Serious symptoms include difficulty breathing.",
+      "prevention": "Vaccination, wearing masks in crowded areas, and frequent hand washing."
+    }
+  ]
+}
