@@ -1,3 +1,25 @@
+import os
+import json
+from fastapi import FastAPI, Form, Response
+from twilio.twiml.messaging_response import MessagingResponse
+from openai import OpenAI
+
+# --- This section was missing ---
+# It imports the libraries and sets up the connection to OpenAI
+# --------------------------------
+
+# Load the knowledge base from the JSON file
+with open('knowledge_base.json', 'r') as f:
+    knowledge_base = json.load(f)
+
+# Initialize the OpenAI client using the secret key from Render's environment variables
+client = OpenAI(api_key=os.environ.get("OPENAI_API_KEY"))
+
+# Initialize the FastAPI application
+app = FastAPI()
+# ----------------------------------
+
+
 @app.post("/webhook")
 async def handle_webhook(Body: str = Form(...)):
     user_message = Body
