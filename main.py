@@ -1,5 +1,6 @@
 from fastapi import FastAPI, Form, Response
 from fastapi import FastAPI
+from twilio.twiml.messaging_response import MessagingResponse
 import json
 with open('knowledge_base.json', 'r') as f:
     knowledge_base = json.load(f)
@@ -46,6 +47,7 @@ async def handle_webhook(Body: str = Form(...)):
     twiml_response.message(response_text)
 
     return Response(content=str(twiml_response), media_type="application/xml")
+
 
 
 
