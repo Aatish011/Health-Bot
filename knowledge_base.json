@@ -1,0 +1,84 @@
+{
+  "diseases": [
+    {
+      "name": "Malaria",
+      "aliases": ["malariya"],
+      "overview": {
+        "en": "Malaria is a serious tropical disease spread by infected Anopheles mosquitoes.",
+        "hi": "मलेरिया एक गंभीर उष्णकटिबंधीय बीमारी है जो संक्रमित एनोफिलीज मच्छरों से फैलती है।"
+      },
+      "symptoms": {
+        "en": "Recurring cycles of high fever, shaking chills, and heavy sweats. Other symptoms include headache, nausea, and body aches.",
+        "hi": "तेज बुखार, कंपकंपी के साथ ठंड लगना और भारी पसीना आना। अन्य लक्षणों में सिरदर्द, जी मिचलाना और शरीर में दर्द शामिल हैं।"
+      },
+      "prevention": {
+        "en": "Sleep under insecticide-treated mosquito nets, use insect repellent (like DEET), and wear long sleeves and pants.",
+        "hi": "कीटनाशक से उपचारित मच्छरदानी के नीचे सोएं, कीट विकर्षक (जैसे डीईईटी) का उपयोग करें, और लंबी आस्तीन वाले कपड़े और पैंट पहनें।"
+      },
+      "treatment_info": {
+        "en": "Treatment for Malaria involves prescription antimalarial drugs from a doctor. It is crucial to complete the full course of medicine.",
+        "hi": "मलेरिया का इलाज डॉक्टर द्वारा बताई गई मलेरिया-रोधी दवाओं से होता है। दवा का पूरा कोर्स पूरा करना बहुत महत्वपूर्ण है।"
+      }
+    },
+    {
+      "name": "Dengue",
+      "aliases": ["dengu"],
+      "overview": {
+        "en": "Dengue is a painful viral infection transmitted to humans through the bite of infected Aedes mosquitoes.",
+        "hi": "डेंगू एक दर्दनाक वायरल संक्रमण है जो संक्रमित एडीज मच्छरों के काटने से इंसानों में फैलता है।"
+      },
+      "symptoms": {
+        "en": "Sudden high fever, severe headache, pain behind the eyes, severe joint and muscle pain ('breakbone fever'), and a skin rash.",
+        "hi": "अचानक तेज बुखार, गंभीर सिरदर्द, आंखों के पीछे दर्द, जोड़ों और मांसपेशियों में गंभीर दर्द ('हड्डी तोड़ बुखार'), और त्वचा पर लाल चकत्ते।"
+      },
+      "prevention": {
+        "en": "Eliminate mosquito breeding sites. Remove stagnant water from containers like flower pots, buckets, tires, and coolers. Use mosquito repellent.",
+        "hi": "मच्छरों के प्रजनन स्थलों को खत्म करें। गमलों, बाल्टियों, टायरों और कूलरों जैसे कंटेनरों से जमा पानी को हटा दें। मच्छर भगाने वाली क्रीम का प्रयोग करें।"
+      },
+      "treatment_info": {
+        "en": "There is no specific medicine to treat dengue. Focus on controlling symptoms like fever and pain. It is vital to stay hydrated and consult a doctor, as severe dengue requires hospital care.",
+        "hi": "डेंगू के इलाज के लिए कोई विशिष्ट दवा नहीं है। बुखार और दर्द जैसे लक्षणों को नियंत्रित करने पर ध्यान दें। हाइड्रेटेड रहना और डॉक्टर से सलाह लेना महत्वपूर्ण है, क्योंकि गंभीर डेंगू में अस्पताल में देखभाल की आवश्यकता होती है।"
+      }
+    },
+    {
+      "name": "Typhoid",
+      "aliases": ["typhoid fever"],
+      "overview": {
+        "en": "Typhoid fever is a serious bacterial infection that spreads through contaminated food and water.",
+        "hi": "टाइफाइड बुखार एक गंभीर जीवाणु संक्रमण है जो दूषित भोजन और पानी से फैलता है।"
+      },
+      "symptoms": {
+        "en": "A high fever that slowly increases daily, headache, weakness and fatigue, muscle aches, sweating, and a dry cough.",
+        "hi": "तेज बुखार जो रोजाना धीरे-धीरे बढ़ता है, सिरदर्द, कमजोरी और थकान, मांसपेशियों में दर्द, पसीना और सूखी खांसी।"
+      },
+      "prevention": {
+        "en": "Practice safe drinking water habits (boil or purify it) and maintain good hygiene. Avoid raw foods.",
+        "hi": "पीने के पानी की सुरक्षित आदतों का अभ्यास करें (इसे उबालें या शुद्ध करें) और अच्छी स्वच्छता बनाए रखें। कच्चे खाद्य पदार्थों से बचें।"
+      },
+      "vaccination_info": {
+        "en": "Yes, vaccines are available and recommended for preventing Typhoid. Please consult a doctor for the vaccination schedule.",
+        "hi": "हाँ, टाइफाइड से बचाव के लिए टीके उपलब्ध हैं और अनुशंसित हैं। टीकाकरण सारणी के लिए कृपया डॉक्टर से सलाह लें।"
+      }
+    },
+    {
+      "name": "Tuberculosis",
+      "aliases": ["tb", "t.b."],
+      "overview": {
+        "en": "Tuberculosis (TB) is a potentially serious infectious disease that mainly affects the lungs.",
+        "hi": "तपेदिक (टीबी) एक संभावित गंभीर संक्रामक रोग है जो मुख्य रूप से फेफड़ों को प्रभावित करता है।"
+      },
+      "symptoms": {
+        "en": "A persistent cough lasting more than 3 weeks, sometimes with blood, along with chest pain, weight loss, fatigue, fever, and night sweats.",
+        "hi": "3 सप्ताह से अधिक समय तक लगातार खांसी, कभी-कभी खून के साथ, सीने में दर्द, वजन कम होना, थकान, बुखार और रात को पसीना आना।"
+      },
+      "prevention": {
+        "en": "BCG vaccination for children is recommended. Ensure good ventilation in living spaces and practice good cough etiquette.",
+        "hi": "बच्चों के लिए बीसीजी टीकाकरण की सिफारिश की जाती है। रहने की जगहों में अच्छा वेंटीलेशन सुनिश्चित करें और खांसते समय शिष्टाचार का पालन करें।"
+      },
+      "treatment_info": {
+        "en": "TB is treatable and curable with a long course of antibiotics prescribed by a doctor. It is critical to finish the entire course of medication.",
+        "hi": "टीबी का इलाज डॉक्टर द्वारा निर्धारित एंटीबायोटिक दवाओं के एक लंबे कोर्स से संभव है। दवा का पूरा कोर्स पूरा करना बहुत महत्वपूर्ण है।"
+      }
+    }
+  ]
+}
